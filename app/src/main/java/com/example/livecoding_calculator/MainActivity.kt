@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
             val result = doCurrentOperation()
             binding.textNumber.text = result.toString()
         }
-
     }
 
     private fun doCurrentOperation(): Double {

@@ -148,12 +148,16 @@
     <TextView
         android:id="@+id/textNumber"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:gravity="right"
         android:maxLines="1"
         android:text=""
+        android:ellipsize="end"
+        android:scrollHorizontally="true"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="15sp"
+        android:autoSizeMaxTextSize="@dimen/textGiant"
         android:textColor="@color/brand"
-        android:textSize="@dimen/textGiant"
         app:layout_constraintEnd_toEndOf="@+id/btnDiv"
         app:layout_constraintStart_toStartOf="@+id/btn_plus"
         app:layout_constraintTop_toBottomOf="@+id/tvSavedNumber" />
